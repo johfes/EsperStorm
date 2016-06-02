@@ -1,4 +1,4 @@
-package biz.fesenmeyer.example.twitter;
+package biz.fesenmeyer.twitter;
 
 import org.tomdz.storm.esper.EsperBolt;
 
@@ -7,7 +7,7 @@ import backtype.storm.LocalCluster;
 import backtype.storm.topology.TopologyBuilder;
 import backtype.storm.tuple.Fields;
 import backtype.storm.utils.Utils;
-import biz.fesenmeyer.example.twitter.*;
+import biz.fesenmeyer.twitter.*;
 
 public class TwitterEsperSample
 {

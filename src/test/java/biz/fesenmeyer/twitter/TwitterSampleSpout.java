@@ -1,4 +1,4 @@
-package biz.fesenmeyer.example.twitter;
+package biz.fesenmeyer.twitter;
 
 import java.util.Map;
 import java.util.concurrent.LinkedBlockingQueue;

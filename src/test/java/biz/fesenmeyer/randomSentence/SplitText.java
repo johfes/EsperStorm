@@ -1,4 +1,4 @@
-package biz.fesenmeyer.example.randomSentence;
+package biz.fesenmeyer.randomSentence;
 
 import java.text.BreakIterator;
 

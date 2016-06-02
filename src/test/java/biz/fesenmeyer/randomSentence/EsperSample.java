@@ -1,4 +1,4 @@
-package biz.fesenmeyer.example.randomSentence;
+package biz.fesenmeyer.randomSentence;
 
 import static backtype.storm.utils.Utils.tuple;
 

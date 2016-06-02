@@ -1,4 +1,4 @@
-package biz.fesenmeyer.example.twitter;
+package biz.fesenmeyer.twitter;
 
 import java.text.BreakIterator;
 import java.util.Map;

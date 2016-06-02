@@ -1,4 +1,4 @@
-package biz.fesenmeyer.example.randomSentence;
+package biz.fesenmeyer.randomSentence;
 
 import backtype.storm.spout.SpoutOutputCollector;
 import backtype.storm.task.TopologyContext;
