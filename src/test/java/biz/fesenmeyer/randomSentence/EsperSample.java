@@ -25,13 +25,7 @@ public class EsperSample {
         
 		//Used to build the topology
 	    TopologyBuilder builder = new TopologyBuilder();
-	    //Add the spout, with a name of 'spout'
-	    //and parallelism hint of 5 executors
 	    builder.setSpout("spout", new RandomTextSpout(), 5);
-	    //Add the counter, with a name of 'count'
-	    //and parallelism hint of 12 executors
-	    //fieldsgrouping subscribes to the split bolt, and
-	    //ensures that the same word is sent to the same instance (group by field 'word')
 	    builder.setBolt("split", new SplitText(), 8).shuffleGrouping("spout");
 	    builder.setBolt("bolt", esperBolt, 12).fieldsGrouping("split", new Fields("word"));
 

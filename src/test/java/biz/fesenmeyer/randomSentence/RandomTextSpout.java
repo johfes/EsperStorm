@@ -33,7 +33,8 @@ public class RandomTextSpout extends BaseRichSpout {
   //Sleep for a bit
     Utils.sleep(100);
     //The sentences that will be randomly emitted
-    String[] sentences = new String[]{ "This is a text with safe words only", "This is a text with a dangerousWord"};
+    String[] sentences = new String[]{ "This is a text with safe words only", 
+    		"This is a text with a dangerousWord"};
     //Randomly pick a sentence
     String sentence = sentences[_rand.nextInt(sentences.length)];
     //Emit the sentence
